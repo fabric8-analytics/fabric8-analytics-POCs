@@ -1,0 +1,16 @@
+Planner: https://openshift.io/openshiftio/Openshift_io/plan/detail/460
+
+GitHub link: openshift.io:4228 https://github.com/openshiftio/openshift.io/issues/4228
+
+Description:
+
+Maven support in CVEjob is lacking behind NPM and Python support. The reason for that is the complexity of Maven ecosystem, namely multi-module projects which publish multiple artifacts for each release and the naming schema (gid:aid::) which is very different from other “standard” language ecosystems.
+
+Sometimes the only way how to reliably map CVE for complex Maven project is to find the patch which fixes the vulnerability. We want to research whether it would be possible, at least to some degree, identify commits in Git which likely fix some security issue (those that have “CVE-xxxx-xxxx” in the description, or other keywords).
+
+Input:
+
+    git repository and commit range - we don’t need to check all commits in the repository, only commits between 2 releases (we know the fix is there somewhere)
+    CVE record from NVD
+
+Note this is just a research, we don’t expect to have anything production-ready at the end.

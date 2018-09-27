@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiofiles = "*"
+aiohttp = "*"
+cpe = "*"
+psutil = "*"
+requests = "*"
+tornado = "==4.3.0"
+ujson = "*"
+jupyterlab = "*"
+ipywidgets = "==7.4.1"
+tqdm = "*"
+pyyaml = "*"
+nltk = "*"
+numpy = "*"
+pandas = "*"
+spacy = "*"
+sklearn = "*"
+prettyprinter = "*"
+jenkspy = "*"
+ipython = "*"
+ipykernel = "*"
+pip = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+scipy = "*"
+jupyter-dashboards = "*"
+matplotlib = "*"
+gensim = "*"
+seaborn = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
