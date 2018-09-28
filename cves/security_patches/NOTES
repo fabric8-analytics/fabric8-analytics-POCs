@@ -1,1 +1,5 @@
-- needs to clone cvedb from https://github.com/fabric8-analytics/cvedb locally
+In order to run the notebook, the following things are needed:
+
+- file called `secrets` with a single entry representing Git Hub API token
+- models parts need to be concatenated together using `cat models.tar.bz2.* > models.tar.bz2`
+- cvedb cloned from https://github.com/fabric8-analytics/cvedb locally
