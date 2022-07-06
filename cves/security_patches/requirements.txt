@@ -45,7 +45,7 @@ jupyter-nbextensions-configurator==0.4.0
 jupyterlab-launcher==0.13.1
 jupyterlab==0.34.12
 kiwisolver==1.0.1; python_version != '3.1.*'
-lxml==4.2.5
+lxml==4.9.1
 markupsafe==1.0
 matplotlib==3.0.0
 mistune==0.8.3
