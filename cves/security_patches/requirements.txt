@@ -72,7 +72,7 @@ prometheus-client==0.3.1
 prompt-toolkit==1.0.15
 psutil==5.4.7
 ptyprocess==0.6.0; os_name != 'nt'
-py==1.6.0; python_version != '3.0.*'
+py==1.10.0; python_version != '3.0.*'
 pygments==2.2.0
 pyparsing==2.2.1; python_version != '3.0.*'
 pytest==3.8.1
